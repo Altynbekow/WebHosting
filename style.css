@@ -707,7 +707,7 @@ a.custom-link {
   }
 
   .flex {
-    margin-left: 20px;
+    margin-left: 70px;
     margin-top: 50px;
   }
   .flex2 {
@@ -715,10 +715,10 @@ a.custom-link {
     flex-direction: column;
   }
   .sbvg {
-    margin-left: 150px;
+    margin-left: 180px;
   }
   .flexx {
-    margin-left: 0;
+    margin-left: 50px;
   }
   .pr {
     margin-left: -150px;
@@ -738,16 +738,16 @@ a.custom-link {
   }
   .shadow {
     margin-top: 100px;
-    margin-left: -230px;
+    margin-left: -180px;
   }
   .jpnl {
     width: 380px;
     margin-top: 100px;
-    margin-left: 0;
+    margin-left: 50px;
   }
   .leeve {
     margin-top: 100px;
-    margin-left: 0;
+    margin-left: 50px;
   }
   .we h1 {
     margin-left: 50px;
@@ -756,20 +756,21 @@ a.custom-link {
     margin-left: 50px;
   }
   .foto {
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 100px;
   }
   .blue {
-    width: 400px;
+    width: 450px;
     height: 600px;
-    margin-left: 0;
+    margin-left: 20px;
   }
   .elem {
     display: none;
   }
   .foot {
-    width: 400px;
+    width: 500px;
     flex-direction: column;
+    margin-left: 0;
   }
   .servic,
   .hosting,
@@ -777,5 +778,13 @@ a.custom-link {
   .help {
     display: none;
   }
-
+  .bg img{
+    margin-left: 80px;
+  }
+  .el{
+    display: none;
+  }
+  .starter{
+    margin-left: 50px;
+  }
 }
