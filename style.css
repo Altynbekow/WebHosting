@@ -22,8 +22,7 @@ p {
   width: 100%;
   margin: 0 auto;
   padding: 50px 80px;
-  border: 1px solid #219d9969;
-  position: relative;
+    position: relative;
 }
 
 .header_top {
@@ -778,4 +777,5 @@ a.custom-link {
   .help {
     display: none;
   }
+
 }
