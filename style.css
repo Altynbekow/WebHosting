@@ -691,7 +691,7 @@ a.custom-link {
   gap: 100px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .container {
     width: 425px;
   }
