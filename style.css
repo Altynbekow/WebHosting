@@ -690,7 +690,7 @@ a.custom-link {
   gap: 100px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .container {
     width: 425px;
   }
@@ -786,5 +786,16 @@ a.custom-link {
   }
   .starter{
     margin-left: 50px;
+  }
+  
+  .carousel p::after {
+    display: none ;
+  }
+  .carousel p:hover {
+    display: none;
+  }
+  
+  .carousel p:hover::after {
+    display: none;
   }
 }
