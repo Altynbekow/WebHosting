@@ -19,8 +19,8 @@ p {
 }
 
 .container {
-  width: 100%;
-  margin: 0 auto;
+  width: 1440px;
+  margin:  auto;
   padding: 50px 80px;
   position: relative;
 }
@@ -691,9 +691,10 @@ a.custom-link {
 }
 
 @media (max-width: 450px) {
-  .container {
-    width: 425px;
-  }
+    .container {
+      width: 100%;
+      border: 1px solid green;
+    }
   .blog_news {
     display: none;
   }
@@ -702,20 +703,24 @@ a.custom-link {
     display: none;
   }
   .bg {
-    margin-left: -100px;
+    margin-left: 250px;
     margin-top: 150px;
   }
 
-  .flex {
-    margin-left: 70px;
-    margin-top: 50px;
+  .flex   {
+    margin-left: 150px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 50px;
+   
   }
   .flex2 {
     margin-left: 0;
     flex-direction: column;
   }
-  .sbvg {
-    margin-left: 180px;
+  .time img {
+    margin-left: 150px;
   }
   .flexx {
     margin-left: 50px;
@@ -738,16 +743,16 @@ a.custom-link {
   }
   .shadow {
     margin-top: 100px;
-    margin-left: -180px;
+    margin-left: -225px;
   }
   .jpnl {
     width: 380px;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 15px;
   }
   .leeve {
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 10px;
   }
   .we h1 {
     margin-left: 50px;
@@ -756,21 +761,21 @@ a.custom-link {
     margin-left: 50px;
   }
   .foto {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 100px;
   }
   .blue {
     width: 450px;
     height: 600px;
-    margin-left: 20px;
+    margin-left: -15px;
   }
   .elem {
     display: none;
   }
   .foot {
-    width: 500px;
+    width: 450px;
     flex-direction: column;
-    margin-left: 0;
+    margin-left: -15px;
   }
   .servic,
   .hosting,
@@ -779,13 +784,14 @@ a.custom-link {
     display: none;
   }
   .bg img {
-    margin-left: 80px;
+    width: 400px;
+    margin-left: -240px;
   }
   .el {
     display: none;
   }
   .starter {
-    margin-left: 50px;
+    margin-left: -60px;
   }
 
   .carousel p::after {
@@ -798,9 +804,19 @@ a.custom-link {
   .carousel p:hover::after {
     display: none;
   }
+  .bs{
+    margin-left: -20px       ;
+  }
+  .alll{
+    margin-left: 125px;
+  }
+  .sbvg{
+    margin-left: 20px;
+  }
+
 }
 
-@media  (max-width: 1024px) {
+/* @media  (max-width: 1024px) {
   .container {
     width: 1050px;
     border: 1px solid #ccc;
@@ -894,4 +910,4 @@ a.custom-link {
   .help, .company{
     display: none;
   }
-}
+} */
