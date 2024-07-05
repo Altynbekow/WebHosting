@@ -742,16 +742,16 @@ a.custom-link {
   }
   .shadow {
     margin-top: 100px;
-    margin-left: -225px;
+    margin-left: -190px;
   }
   .jpnl {
     width: 380px;
     margin-top: 100px;
-    margin-left: 15px;
+    margin-left: 50px;
   }
   .leeve {
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 50px;
   }
   .we h1 {
     margin-left: 50px;
@@ -764,7 +764,7 @@ a.custom-link {
     margin-top: 100px;
   }
   .blue {
-    width: 450px;
+    width: 500px;
     height: 600px;
     margin-left: -15px;
   }
@@ -772,7 +772,7 @@ a.custom-link {
     display: none;
   }
   .foot {
-    width: 450px;
+    width: 500px;
     flex-direction: column;
     margin-left: -15px;
   }
@@ -784,13 +784,13 @@ a.custom-link {
   }
   .bg img {
     width: 400px;
-    margin-left: -240px;
+    margin-left: -210px;
   }
   .el {
     display: none;
   }
   .starter {
-    margin-left: -60px;
+    margin-left: -40px;
   }
 
   .carousel p::after {
@@ -803,14 +803,12 @@ a.custom-link {
   .carousel p:hover::after {
     display: none;
   }
-  .bs{
-    margin-left: -20px       ;
-  }
+ 
   .alll{
     margin-left: 125px;
   }
   .sbvg{
-    margin-left: 20px;
+    padding-left: 30px;
   }
 
 }
