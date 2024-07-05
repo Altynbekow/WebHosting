@@ -692,8 +692,7 @@ a.custom-link {
 
 @media (max-width: 450px) {
     .container {
-      width: 100%;
-      border: 1px solid green;
+      width: 425px;
     }
   .blog_news {
     display: none;
