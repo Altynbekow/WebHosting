@@ -690,9 +690,9 @@ a.custom-link {
   gap: 100px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .container {
-      width: 425px;
+      width: 450px;
     }
   .blog_news {
     display: none;
