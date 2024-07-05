@@ -692,7 +692,7 @@ a.custom-link {
 
 @media (max-width: 500px) {
     .container {
-      width: 450px;
+      width: 425px;
     }
   .blog_news {
     display: none;
